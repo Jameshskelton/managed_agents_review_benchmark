@@ -1,0 +1,197 @@
+[
+  {
+    "step": "sizes",
+    "status": 200,
+    "error": null,
+    "ms": 293.6,
+    "request_id": "620dc8a0-df9c-40a5-a53a-21595a5f256a",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "sizes": [
+        {
+          "slug": "mars-1vcpu-1gb",
+          "vcpus": 1,
+          "memory_mb": 1024,
+          "price_per_hour_usd": 0.0535,
+          "price_per_month_usd": 39.804
+        },
+        {
+          "slug": "mars-2vcpu-2gb",
+          "vcpus": 2,
+          "memory_mb": 2048,
+          "price_per_hour_usd": 0.107,
+          "price_per_month_usd": 79.608
+        },
+        {
+          "slug": "mars-2vcpu-4gb",
+          "vcpus": 2,
+          "memory_mb": 4096,
+          "price_per_hour_usd": 0.126,
+          "price_per_month_usd": 93.744
+        },
+        {
+          "slug": "mars-4vcpu-8gb",
+          "vcpus": 4,
+          "memory_mb": 8192,
+          "price_per_hour_usd": 0.252,
+          "price_per_month_usd": 187.488
+        },
+        {
+          "slug": "mars-16vcpu-32gb",
+          "vcpus": 16,
+          "memory_mb": 32768,
+          "price_per_hour_usd": 1.008,
+          "price_per_month_usd": 749.952
+        }
+      ]
+    }
+  },
+  {
+    "step": "create",
+    "status": 200,
+    "error": null,
+    "ms": 13695.5,
+    "request_id": "b5880d72-fd7c-4820-93da-ddbc7e958658",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "session": {
+        "session_id": "01a15f7d-d9de-7645-b6b0-12287ae6bf3b",
+        "name": "mabench-probe-324047",
+        "agent_kind": "AGENT_KIND_OPENCODE",
+        "status": "SESSION_STATUS_READY",
+        "sandbox_id": "01a15f7d-db7a-7f03-a73d-58417ea340ac",
+        "created_at": "2026-10-21T17:24:05.726414237Z",
+        "last_event_at": "2026-10-21T17:24:05.726414237Z",
+        "idle_timeout_seconds": 7200,
+        "config_id": "01a15f7d-d8f4-7133-936f-cd32baf58f84"
+      }
+    }
+  },
+  {
+    "step": "get:ready",
+    "status": 200,
+    "error": null,
+    "ms": 312.7,
+    "request_id": "8cdbb9c3-3e81-464c-b624-1bcd6e2f3ff4",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "session": {
+        "session_id": "01a15f7d-d9de-7645-b6b0-12287ae6bf3b",
+        "name": "mabench-probe-324047",
+        "agent_kind": "AGENT_KIND_OPENCODE",
+        "status": "SESSION_STATUS_READY",
+        "sandbox_id": "01a15f7d-db7a-7f03-a73d-58417ea340ac",
+        "created_at": "2026-10-21T17:24:05.726414Z",
+        "last_event_at": "2026-10-21T17:24:05.726414Z",
+        "idle_timeout_seconds": 7200,
+        "config_id": "01a15f7d-d8f4-7133-936f-cd32baf58f84"
+      }
+    }
+  },
+  {
+    "step": "exec",
+    "status": 200,
+    "error": null,
+    "ms": 224.2,
+    "request_id": "119b70c2-d34c-49d4-abd9-38ad72b0947f",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "exit_code": 0,
+      "stdout": "Linux\n",
+      "duration_ms": 22
+    }
+  },
+  {
+    "step": "pause",
+    "status": 204,
+    "error": null,
+    "ms": 359.9,
+    "request_id": "4f864907-d14f-4b2e-b299-40ece6490b58",
+    "ratelimit_remaining": null,
+    "content_type": null,
+    "body": ""
+  },
+  {
+    "step": "get:paused",
+    "status": 200,
+    "error": null,
+    "ms": 90.9,
+    "request_id": "5c9fb7dd-d06c-463d-bcdf-5f8cf95100b5",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "session": {
+        "session_id": "01a15f7d-d9de-7645-b6b0-12287ae6bf3b",
+        "name": "mabench-probe-324047",
+        "agent_kind": "AGENT_KIND_OPENCODE",
+        "status": "SESSION_STATUS_PAUSED",
+        "sandbox_id": "01a15f7d-db7a-7f03-a73d-58417ea340ac",
+        "created_at": "2026-10-21T17:24:05.726414Z",
+        "last_event_at": "2026-10-21T17:24:19.284646Z",
+        "idle_timeout_seconds": 7200,
+        "pause_reason": "manual",
+        "config_id": "01a15f7d-d8f4-7133-936f-cd32baf58f84"
+      }
+    }
+  },
+  {
+    "step": "resume",
+    "status": 204,
+    "error": null,
+    "ms": 374.1,
+    "request_id": "9af7c10d-dc15-4f29-8b1b-33ca704a3ab8",
+    "ratelimit_remaining": null,
+    "content_type": null,
+    "body": ""
+  },
+  {
+    "step": "get:ready",
+    "status": 200,
+    "error": null,
+    "ms": 317.9,
+    "request_id": "6054259c-cc18-4c73-9e57-bfd200d5d038",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "session": {
+        "session_id": "01a15f7d-d9de-7645-b6b0-12287ae6bf3b",
+        "name": "mabench-probe-324047",
+        "agent_kind": "AGENT_KIND_OPENCODE",
+        "status": "SESSION_STATUS_READY",
+        "sandbox_id": "01a15f7d-db7a-7f03-a73d-58417ea340ac",
+        "created_at": "2026-10-21T17:24:05.726414Z",
+        "last_event_at": "2026-10-21T17:24:19.284646Z",
+        "idle_timeout_seconds": 7200,
+        "config_id": "01a15f7d-d8f4-7133-936f-cd32baf58f84"
+      }
+    }
+  },
+  {
+    "step": "exec",
+    "status": 200,
+    "error": null,
+    "ms": 193.2,
+    "request_id": "8dd6d12c-4856-4471-9227-66ec03b41f6b",
+    "ratelimit_remaining": null,
+    "content_type": "application/json",
+    "body": {
+      "exit_code": 0,
+      "stdout": "Linux\n",
+      "duration_ms": 5
+    }
+  },
+  {
+    "step": "destroy",
+    "status": 204,
+    "error": null,
+    "ms": 312.9,
+    "request_id": "664c03e0-cfee-4f62-8d9c-7f55a8ee07f1",
+    "ratelimit_remaining": null,
+    "content_type": null,
+    "body": ""
+  }
+]
